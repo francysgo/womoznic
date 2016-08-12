@@ -74,7 +74,9 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-
+    {% block content %}
+   
+    {% endblock content %}
 
  <footer>
         <div class="container">
@@ -84,7 +86,7 @@
 		  <p>Con el apoyo de: </p>
                    <a href="http://goo.gl/forms/ICmxdsDBxjAKxMu82">
 		      {% load static %}
-                      <img src={% static "img/mozilla.png" %}" class="img-responsive" alt="">
+                      <img src={% static "img/mozilla.png" %} class="img-responsive" alt="">
                 </a>
                </div> 
     </footer>
